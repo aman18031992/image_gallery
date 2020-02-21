@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.header {
+    color: #ff1919;
+    border-bottom: 2px solid #ff9a9a;
+    border-right: 2px solid #ff9a9a;
+    width: 200px;
+    padding:  0 10px;
+    font-family: 'Bad Script', cursive ;
+    font-weight: 400;
+    font-size: 21px;
+    margin: 20px 0;
+    text-align: center;
+    box-shadow: 9px 7px 18px -7px rgba(255,92,92,1);
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 450px;
+    height: 300px;
+    transition: all 0.3s;
+    margin: 20px;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
